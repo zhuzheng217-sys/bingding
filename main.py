@@ -82,7 +82,7 @@ day_gz = day_gan + day_zhi
 # =====================================
 matched = (
     month_gan in ["丙", "丁"]
-    and
+    or
     day_gan in ["丙", "丁"]
 )
 
