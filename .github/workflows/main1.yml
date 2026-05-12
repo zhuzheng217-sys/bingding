@@ -6,9 +6,9 @@ on:
     # GitHub Actions 使用 UTC 时间
     #
     # 中国时间 22:50
-    # = UTC 时间 14:50
+    # = UTC 时间 15:00
     # =========================
-    - cron: '50 14 * * *'
+    - cron: '00 15 * * *'
 
   # 支持手动运行
   workflow_dispatch:
